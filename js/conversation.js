@@ -152,8 +152,8 @@ var accessToken = "1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c"                    
       $.ajax({
            
         type: "POST",
-           
-        url: baseUrl + "query?v=20150910",
+           //20150910
+        url: baseUrl + "query?v=",
       //  console.log("++lineAfter_baseUrl");  
         contentType: "application/json; charset=utf-8",
         dataType: "json",
